@@ -1,0 +1,167 @@
+body{
+    display: inline-block;
+}
+
+
+.flex{
+    display: flex;
+}
+
+nav{
+    margin: 0%;
+    background-color: rgb(249, 249, 249); 
+    height: 50px;
+    justify-content: space-between; 
+    /* flex-direction: row; */
+}
+#logo{
+    align-self: center
+
+
+}
+#logo-img{
+    height:40px ;
+    margin-left: 100px;
+}
+#cart-img{
+    height: 50px;
+
+
+}
+#cart-items{
+display: flex;
+margin-right: 100px;
+}
+.banner-img{
+    height: 491px;
+
+
+
+}
+.banner{
+    justify-content: flex-start;
+}
+.headings{
+    
+    position: absolute;
+    margin: 40px;
+    color: aliceblue;
+    font-size: 25px;
+}
+
+.img{
+    height: 252px;
+}
+
+.section{
+    justify-content: space-around;
+}
+
+#book-heading{
+    margin-left: 30px;
+}
+#sections-heading{
+    margin-left: 50px;
+}
+.add-button{
+    background-color: blue;
+    height: 36px;
+    width: 62px;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 8px;
+}
+
+.white-cart{
+    height: 20px;
+}
+.price-add{
+    justify-content: space-between;
+    align-items: center;
+}
+footer{
+    background-color: rgb(0, 0, 0);
+    justify-content: space-between;
+    color: aliceblue;
+}
+.krishti{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    
+}
+#krishti-heading{
+    margin-left:100px;
+}
+#name-mail{
+    margin-right: 100px;
+}
+.img1{
+    height: 315px;
+}
+
+@media (max-width:600px){
+    body{
+    background-color: rgb(236, 227, 227);
+    }
+   .section{
+    flex-direction: column;
+   }
+   
+   .abc{
+    text-align: center;
+    
+}
+
+    .price-add{
+        justify-content: space-evenly;
+    }
+   
+
+    
+    .banner-img {
+        height: 591px;
+   }
+   .img1{
+    height: 1376px;
+    width: 1294px;
+    
+   }
+   .img{
+    height: 1376px;
+    width: 1294px;
+   }
+   h3{
+    font-size: 100px;
+   }
+   h2{
+    font-size: 150px;
+   }
+   h4{
+    font-size: 60px;
+   }
+   p{
+    font-size: 70px;
+   }
+   .add-button{
+    height: 120px;
+    width: 181px;
+   }
+   .white-cart{
+    height: 60px;
+   }
+   footer{
+    justify-content:center ;
+   }
+   .krishti{
+    height: 332px;
+    width: 353px;
+   }
+   #name-mail{
+    margin-left:380px ;
+    margin-top: 106px;
+   }
+   #arpit{
+    margin-left: 127px;
+   }
+}
